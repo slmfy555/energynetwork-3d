@@ -1,0 +1,21 @@
+#text{
+    position:absolute;
+    top :10
+}
+
+#3d-graph{
+    position:absolute;
+
+}
+
+#btn1{
+    position:absolute;
+    left:50;
+    top:10;
+}
+
+#btn2{
+    position:absolute;
+    left:110;
+    top:10;
+}
