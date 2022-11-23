@@ -86,8 +86,8 @@ const csvdata = d3.csv("nodes.csv", function (data1) {
         highlightNodes.has(node)
           ? node === hoverNode
             ? "rgb(255,0,0,1)"
-            : "rgba(255,160,0,0.8)"
-          : "rgba(0,255,255,0.6)"
+            : "rgba(255,160,0,1)"
+          : "rgba(0,255,255,1)"
       )
       .linkWidth((link) => (highlightLinks.has(link) ? 4 : 1))
       .linkDirectionalParticles((link) => (highlightLinks.has(link) ? 4 : 0))
